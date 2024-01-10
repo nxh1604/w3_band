@@ -1,0 +1,101 @@
+@media (max-width: 720px) {
+  /* utilities */
+  .btn {
+    font-size: 1.6rem;
+    padding: 1.2rem 1.6rem;
+    width: 100%;
+  }
+
+  .header_wrapper .search {
+    display: none;
+  }
+
+  .header_wrapper .nav {
+    display: block;
+    flex-grow: 1;
+  }
+
+  .header_wrapper .nav_items:first-child {
+    width: max-content;
+  }
+
+  .header_wrapper {
+    overflow: hidden;
+  }
+
+  .header_wrapper .dropdown-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    padding: 0 1.6rem;
+    line-height: 4.6rem;
+    font-size: large;
+  }
+
+  .dropdown-menu:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  .header_wrapper .nav .link {
+    padding: 0.2rem 2.4rem;
+  }
+
+  .nav_items:hover .subnav {
+    position: initial;
+    background-color: #333;
+    color: #fff;
+  }
+  .subnav a {
+    padding: 0.4rem 5rem;
+  }
+  .subnav a:hover {
+    color: #000;
+  }
+
+  .content .member-list {
+    flex-direction: column;
+  }
+
+  .section .member-img {
+    width: 100%;
+    max-width: 26rem;
+  }
+
+  .tour-content .tours-take-place {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tour-content .take-place-item {
+    max-width: 500px;
+  }
+
+  .take-place-buy-tickets {
+    width: 100%;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .contact-form .submit {
+    width: 100%;
+  }
+
+  .name-email-container {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  /* footer section */
+  .icon-list {
+    gap: 0;
+  }
+
+  .icon-item a {
+    padding: 2rem 1.5rem;
+  }
+}
